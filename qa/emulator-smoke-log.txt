@@ -1,0 +1,19 @@
+Tapped Konfirmasi Daftar
+Verified Terdaftar ✓
+Tapped Mutual Help
+Verified Butuh bantuan angkat barang
+Captured 06-mutual-help
+Tapped Menawarkan
+Verified Bantu jaga rumah sementara
+Tapped Minta Bantuan
+Tapped Konfirmasi Minta Bantuan
+Verified Tersambung ✓
+Tapped Komunitas
+Verified Komunitas RW 04
+Tapped Gabung Komunitas
+Verified Keluar Komunitas
+Tapped Profil
+Verified Event yang Saya Ikuti
+Tapped Beranda
+Verified Halo, Chia
+SMOKE TEST PASSED

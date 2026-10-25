@@ -1,0 +1,1 @@
+PASS: splash, onboarding, home, local, events, registration, help, request confirmation, community, profile, bottom navigation. No AndroidRuntime fatal exception. Android 9 API 28 emulator.

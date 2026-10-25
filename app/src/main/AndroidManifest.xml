@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- File manifest mendeklarasikan aplikasi dan komponen Android yang digunakan. -->
+<!-- xmlns:android menyediakan namespace untuk atribut berawalan android:. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Pengaturan umum aplikasi:
+
+        allowBackup="false"
+        Menonaktifkan pencadangan standar aplikasi. Perilaku transfer data
+        antarperangkat dapat berbeda menurut versi Android dan produsen.
+
+        label="@string/app_name"
+        Mengambil nama aplikasi dari res/values/strings.xml.
+
+        icon="@drawable/civic_logo"
+        Menggunakan resource civic_logo sebagai ikon aplikasi.
+
+        theme="@style/AppTheme"
+        Menggunakan tema AppTheme yang didefinisikan pada resource style.
+
+        supportsRtl="true"
+        Menyatakan dukungan tata letak kanan ke kiri untuk bahasa seperti Arab.
+        Dukungan tampilannya tetap bergantung pada layout yang dibuat.
+    -->
+    <application
+        android:allowBackup="false"
+        android:label="@string/app_name"
+        android:icon="@drawable/civic_logo"
+        android:theme="@style/AppTheme"
+        android:supportsRtl="true">
+
+        <!--
+            MainActivity adalah komponen Activity utama aplikasi.
+
+            Nama ".MainActivity" merujuk kelas MainActivity dalam namespace
+            proyek, yaitu com.civicpulse.app.
+
+            exported="true" memungkinkan Activity dibuka oleh komponen
+            dari aplikasi lain, termasuk launcher perangkat.
+        -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <!-- Menentukan intent yang dapat ditangani oleh Activity ini. -->
+            <intent-filter>
+
+                <!-- Menandai Activity sebagai titik masuk utama aplikasi. -->
+                <action android:name="android.intent.action.MAIN" />
+
+                <!-- Membuat Activity tersedia untuk dibuka dari launcher. -->
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,66 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <ImageView
+            android:id="@+id/onboard_image"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:src="@drawable/community_hero"
+            android:scaleType="centerCrop"
+            android:contentDescription="Komunitas warga saling membantu" />
+
+        <TextView
+            android:id="@+id/onboard_title"
+            style="@style/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/onboard_body"
+            style="@style/Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/dots"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="24dp"
+            android:gravity="center"
+            android:textColor="@color/teal"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/next"
+            style="@style/Primary"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Lanjut" />
+
+        <Button
+            android:id="@+id/skip"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Lewati"
+            android:textAllCaps="false"
+            android:textColor="@color/teal"
+            android:background="@android:color/transparent" />
+
+    </LinearLayout>
+
+</ScrollView>

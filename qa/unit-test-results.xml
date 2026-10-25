@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.civicpulse.app.CivicFlowTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-24T15:08:10" hostname="217439b0701f" time="6.939">
+  <properties/>
+  <testcase name="localSearchFiltersPlacesAndMap" classname="com.civicpulse.app.CivicFlowTest" time="3.457"/>
+  <testcase name="helpFormRejectsEmptyAndSavesValidPost" classname="com.civicpulse.app.CivicFlowTest" time="0.988"/>
+  <testcase name="recreationRestoresPageAndSearch" classname="com.civicpulse.app.CivicFlowTest" time="0.469"/>
+  <testcase name="splashAndThreeOnboardingStepsReachHome" classname="com.civicpulse.app.CivicFlowTest" time="0.358"/>
+  <testcase name="eventRegistrationPersistsAndFilters" classname="com.civicpulse.app.CivicFlowTest" time="0.456"/>
+  <testcase name="skipAndEveryBottomNavigationDestinationWorks" classname="com.civicpulse.app.CivicFlowTest" time="0.451"/>
+  <testcase name="profileNameAndCommunityMembershipPersist" classname="com.civicpulse.app.CivicFlowTest" time="0.411"/>
+  <testcase name="helpConfirmationPersistsAndOfferFilterWorks" classname="com.civicpulse.app.CivicFlowTest" time="0.348"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>
